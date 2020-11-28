@@ -12,7 +12,7 @@ ReactDOM.render(
 
 registerApplication({
   name: "app-angular",
-  app: (): Promise<LifeCycles> => (window as any).System.import("https://futuremarket-angular.herokuapp.com/main.js"),
+  app: (): Promise<LifeCycles> => (window as any).System.import("http://localhost:4200/main.js"),
   activeWhen: "/angular"
 });
 
